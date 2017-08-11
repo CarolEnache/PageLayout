@@ -13,7 +13,15 @@
                 li.leftSide-item
                   a.leftSide-link(href=y.url) 
                     span.leftSide-desc #{y.label}
-      ul.rightSide
+      .rightSide
         each cont in side.right
-          li.rightSide-item
-            a(href="#") #{cont.label}
+          if cont.type == "link" 
+            ul.rightSide-item
+                each x in cont.content
+                  a.rightSide-link(href=x.url)
+                    span.some #{x.label}
+          if cont.type == "icon"
+            ul
+              each x in cont.content  
+                a(href="#")
+                  span(class=`icon-${x.icon}`)

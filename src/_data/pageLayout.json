@@ -29,15 +29,33 @@
       ],
       "right": [
         {
-          "label": "Culford Post",
-          "url": "#"
+          "type": "link",
+          "content":[
+            {
+              "label": "Culford Post",
+              "url": "#"
+            },
+            {
+              "label": "Email",
+              "url": "#"
+            },
+            {
+              "label": ""
+            }
+          ]
         },
         {
-          "label": "Email",
-          "url": "#"
-        },
-        {
-          "label": ""
+          "type": "icon",
+          "content":[
+            {
+              "address": "#",
+              "icon":"facebook"
+            },
+            {
+              "address":"#",
+              "icon":"twitter"
+            }
+          ]
         }
       ]
     }
