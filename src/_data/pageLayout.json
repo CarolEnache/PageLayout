@@ -1,0 +1,41 @@
+  {
+    "header":[{
+      "left": [
+        {
+          "label": "logo",
+          "url": "/assets/images/logo.png"
+        },
+        {
+          "label": "About Us",
+          "url": "#"
+        },
+        {
+          "label": "Admissons",
+          "url": "#"
+        },
+        {
+          "label": "Boarding",
+          "url": "#"
+        },
+        {
+          "label": "Contact Us",
+          "url": "#"
+        }
+      ],
+      "right": [
+        {
+          "label": "Culford Post",
+          "url": "#"
+        },
+        {
+          "label": "Email",
+          "url": "#"
+        },
+        {
+          "label": ""
+        }
+      ]
+    }
+  ]
+}
+  
