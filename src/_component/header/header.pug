@@ -1,0 +1,19 @@
+
+#header
+  each side in data.pageLayout.header
+    .nav-bar
+      .leftSide
+        each cont in side.left
+          if cont.type == "image"
+            .imgWrapper
+              img.headerLogo(src=cont.url)
+          if cont.type == "link"
+            ul.leftSide-list
+              each y in cont.content
+                li.leftSide-item
+                  a.leftSide-link(href=y.url) 
+                    span.leftSide-desc #{y.label}
+      ul.rightSide
+        each cont in side.right
+          li.rightSide-item
+            a(href="#") #{cont.label}

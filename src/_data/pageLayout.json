@@ -2,24 +2,29 @@
     "header":[{
       "left": [
         {
-          "label": "logo",
-          "url": "/assets/images/logo.png"
+          "type": "image",
+          "url": "/asset/images/home-layout.jpg"
         },
         {
-          "label": "About Us",
-          "url": "#"
-        },
-        {
-          "label": "Admissons",
-          "url": "#"
-        },
-        {
-          "label": "Boarding",
-          "url": "#"
-        },
-        {
-          "label": "Contact Us",
-          "url": "#"
+          "type": "link",
+          "content": [
+            {
+              "label": "About Us",
+              "url": "header"
+            },
+            {
+              "label": "Admissins",
+              "url":"header"
+            },
+            {
+              "label":"Boarding",
+              "url":"header"
+            },
+            {
+              "label":"Contact Us",
+              "url":"header"
+            }
+          ]
         }
       ],
       "right": [
