@@ -1,5 +1,4 @@
-
-#header
+#landingPage
   each side in data.pageLayout.header
     .nav-bar
       .leftSide
@@ -25,3 +24,10 @@
               each x in cont.content  
                 a(href="#")
                   span(class=`icon-${x.icon}`)
+
+
+    ul.lpMenu-list              
+      each list in data.pageLayout.lpMenu
+        li.lpMenu-item
+          a.lpMenu-link(href=list.url) #{list.label}
+

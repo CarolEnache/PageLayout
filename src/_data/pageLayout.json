@@ -59,6 +59,24 @@
         }
       ]
     }
+  ],
+  "lpMenu":[
+    {
+      "label": "Welcome from the Head",
+      "url": "#"
+    },
+    {
+      "label": "Life at Culfort",
+      "url": "#"
+    },
+    {
+      "label": "Latest news",
+      "url": "#"
+    },
+    {
+      "label": "Request a prospectus",
+      "url": "#"
+    }
   ]
 }
   
