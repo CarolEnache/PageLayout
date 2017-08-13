@@ -78,7 +78,12 @@
     align-items: center;
     border: 1px solid black;
     justify-content: center;
+    background-color:white;
   }
+    .lpMenu-item:hover{
+      background-color:lightgrey;
+    }
+
   .lpMenu-link{
     text-decoration: none;
     color: black;
