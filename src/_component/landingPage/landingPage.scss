@@ -7,24 +7,24 @@
   display: flex;
   width: 100vw;
   justify-content: space-around;
-}
-.leftSide{
-  list-style: none;
-  display: flex;
-  align-items: flex-end;
-}
-.leftSide-list{
-  list-style: none;
-  display: flex;
-  align-items: flex-end;
-}
-.leftSide-link{
-  text-decoration: none;
+  .leftSide{
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+  }
+  .leftSide-list{
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+  }
+  .leftSide-link{
+    text-decoration: none;
+  }
+  .headerLogo{
+    height: 162px;
+  }
+  .rightSide{
+    display: flex;
+  }
 
-}
-.headerLogo{
-  height: 162px;
-}
-.rightSide{
-  display: flex;
 }
