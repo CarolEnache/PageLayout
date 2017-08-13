@@ -2,11 +2,18 @@
   display: grid;
   grid-template-columns: 310px 1fr;
   grid-template-rows: 170px 1fr 170px;
+  height: 95vh;
+  width: 100vw;
+  background-color: grey
 }
 .nav-bar{
+  grid-column: 1/2;
+  grid-row: 1/2;
   display: flex;
   width: 100vw;
   justify-content: space-around;
+  padding: 2rem;
+  background-color: white;
   .leftSide{
     list-style: none;
     display: flex;
@@ -15,16 +22,66 @@
   .leftSide-list{
     list-style: none;
     display: flex;
-    align-items: flex-end;
+    align-items: flex-end; 
+  }
+  .leftSide-item{
+    padding-left: 40px;
   }
   .leftSide-link{
     text-decoration: none;
   }
+  .leftSide-desc{
+    color: black;
+  }
   .headerLogo{
-    height: 162px;
+    height: 115px;
   }
   .rightSide{
     display: flex;
+    flex-direction: column
   }
+  .listWrapper{
+    display: flex;
+  }
+  .rightSide-list{
+    display: flex;
+  }
+  .rightSide-item{
+    padding-left: 1rem;
+  }
+  .rightSide-link{
+    text-decoration: none;
+    color: black;
+  }
+  .rightSide-form{
+    padding-top: 40px;
+  }
+  .rightSide-input{
+    width: 100%;
+    height: 30px;
+  }
+}
 
+.landingPageMenu{
+  display: flex;
+}
+
+.lpMenu-list{
+  grid-column: 1/2;
+  grid-row: 3/4;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  .lpMenu-item{
+    width: 309px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: center;
+  }
+  .lpMenu-link{
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+  }
 }

@@ -13,17 +13,22 @@
                   a.leftSide-link(href=y.url) 
                     span.leftSide-desc #{y.label}
       .rightSide
-        each cont in side.right
-          if cont.type == "link" 
-            ul.rightSide-item
+        .listWrapper
+          each cont in side.right
+            if cont.type == "link" 
+              ul.rightSide-list
+                  each x in cont.content
+                    li.rightSide-item
+                      a.rightSide-link(href=x.url)
+                        span.some #{x.label}
+            if cont.type == "icon"
+              ul.rightSide-list
                 each x in cont.content
-                  a.rightSide-link(href=x.url)
-                    span.some #{x.label}
-          if cont.type == "icon"
-            ul
-              each x in cont.content  
-                a(href="#")
-                  span(class=`icon-${x.icon}`)
+                  li.rightSide-item  
+                    a.rightSide-link(href="#")
+                      span.some(class=`icon-${x.icon}`)
+        form.rightSide-form         
+          input.rightSide-input(type='text', name='fname')
 
 
     ul.lpMenu-list              
