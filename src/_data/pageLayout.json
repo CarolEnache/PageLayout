@@ -77,6 +77,36 @@
       "label": "Request a prospectus",
       "url": "#"
     }
-  ]
+  ],
+  "content1":[{
+    "type": "text",
+    "text": "Scroll to find out more"
+  },
+  {
+    "type": "title",
+    "text": "Cultford is an independent boarding and day school for boys and girls aged 3 to 18 years"
+  },
+  {
+    "type": "link",
+    "list":[
+      {
+        "label":"Pre-prep & Nursery ",
+        "url": "#"
+      },
+      {
+        "label": "Prep School",
+        "url":"#"
+      },
+      {
+        "label":"Senior School",
+        "url": "#"
+      },
+      {
+        "label":"Sixth Form",
+        "url":"#"
+      }
+    ]
+  }
+ ]
 }
   
