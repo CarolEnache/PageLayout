@@ -9,5 +9,6 @@
         ul.content1-list
           each link in content.list
             li.content1-item
-              a.content1-link(href="#") #{link.label}
-                span.content1-span Enter
+              .content1-link-wrapper
+                a.content1-link(href="#") #{link.label}
+                  span.content1-span Enter
