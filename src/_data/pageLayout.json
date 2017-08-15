@@ -107,6 +107,29 @@
       }
     ]
   }
+ ],
+ "content2":[
+   {
+     "type": "image",
+     "url":"/asset/image/Screen Shot 2017-08-15 at 17.08.06.png#"
+   },
+   {
+     "type": "link",
+     "list":[
+       {
+         "label": "Sports & Tennis Center",
+         "url": "#"
+       },
+       {
+         "label": "Facillities Hire",
+         "url": "#"
+       },
+       {
+         "label": "Foundation & Alumni",
+         "url": "#"
+       }
+     ]
+   }
  ]
 }
   
