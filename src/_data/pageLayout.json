@@ -78,58 +78,50 @@
       "url": "#"
     }
   ],
-  "content1":[{
+  "content1":[
+    {
     "type": "text",
     "text": "Scroll to find out more"
-  },
-  {
+    },
+    {
     "type": "title",
     "text": "Cultford is an independent boarding and day school for boys and girls aged 3 to 18 years"
-  },
-  {
+    },
+    {
     "type": "link",
     "list":[
-      {
-        "label":"Pre-prep & Nursery ",
-        "url": "#"
-      },
-      {
-        "label": "Prep School",
-        "url":"#"
-      },
-      {
-        "label":"Senior School",
-        "url": "#"
-      },
-      {
-        "label":"Sixth Form",
-        "url":"#"
-      }
-    ]
-  }
- ],
- "content2":[
-   {
-     "type": "image",
-     "url":"/asset/image/Screen Shot 2017-08-15 at 17.08.06.png#"
-   },
-   {
-     "type": "link",
-     "list":[
-       {
-         "label": "Sports & Tennis Center",
-         "url": "#"
-       },
-       {
-         "label": "Facillities Hire",
-         "url": "#"
-       },
-       {
-         "label": "Foundation & Alumni",
-         "url": "#"
-       }
-     ]
-   }
- ]
+        {
+          "label":"Pre-prep & Nursery ",
+          "url": "#"
+        },
+        {
+          "label": "Prep School",
+          "url":"#"
+        },
+        {
+          "label":"Senior School",
+          "url": "#"
+        },
+        {
+          "label":"Sixth Form",
+          "url":"#"
+        }
+      ]
+    }
+  ],
+  "content2":[
+    {
+      "label": "Sport & Tennis Center",
+      "url": "#"
+    },  
+    {
+      "label": "Facilities Hire",
+      "url": "#"
+    },
+    {
+      "label": "Foundation & Alumni",
+      "url": "#"
+    }
+  ]
 }
-  
+
