@@ -1,11 +1,11 @@
 .backgroundBottom
-.bottomMenu
+ul.bottomMenu
+  each content in data.pageLayout.content2
+    li.content2-item
+      a.content2-link(href=content.url) #{content.label}
+        span.icon-link
+
 .footer
 
-//- #content2
-//-     ul.content2-list
-//-       each content in data.pageLayout.content2
-//-         li.content2-item
-//-           a.content2-link(href=content.url) #{content.label}
-//-             span.icon-link
+
             

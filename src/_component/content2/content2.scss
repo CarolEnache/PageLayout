@@ -11,14 +11,40 @@
 //   width: 100vw;
 // }
 .backgroundBottom{
-  background-color: $c6;
+  background-color: white;
   grid-row: 6/9;
   grid-column: 1/5;
 }
 .bottomMenu{
-  background-color: $c7;
+  background-color: white;
   grid-row: 7/8;
   grid-column: 2/4;
+  display: flex;
+  justify-content: space-around;
+  .content2-link{
+    background-color: #BFBFBF;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid #BFBFBf;
+    width: 100vw;
+    padding: 1rem;
+    padding-right: 1rem;
+    float: right;
+    padding-right: 7rem;
+    text-decoration: none;
+  }
+  .content2-item{
+    background-color: grey;
+    height: 220px;
+    width: 370px;
+    border: 1px solid aliceblue;
+    display: flex;
+    align-items: end;
+  }
+  .icon-link{
+    padding-right: 2rem;
+  }
 }
 .footer{
   background-color: $c8;
