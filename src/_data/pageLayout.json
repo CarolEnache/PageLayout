@@ -119,6 +119,31 @@
       "label": "Foundation & Alumni",
       "url": "#"
     }
+  ],
+  "footer":[{
+      "left":[
+        {
+          "label": "!&copy 2014 Culford School  |"
+        },
+        {
+          "label": "  Policies & Handbooks  |"
+        },
+        {
+          "label": "  Terms"
+        }
+      ],
+      "right":[
+        {
+          "label": "Accesability  |"
+        },
+        {
+          "label": "Sitemap  |"
+        },
+        {
+          "label": "Websites for School by School Website"
+        }
+      ]
+    }
   ]
 }
 

@@ -1,0 +1,8 @@
+each side in data.pageLayout.footer
+  .footer
+    ul.footer-list
+      each cont in side.left
+        li.footer-item #{cont.label}
+    ul.footer-list
+      each cont in side.right
+        li.footer-item #{cont.label}

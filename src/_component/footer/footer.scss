@@ -1,0 +1,18 @@
+.footer{
+  background-color: #555;
+  grid-row: 9/10;
+  grid-column: 1/5;
+  display: flex;
+  justify-content: space-around;
+  line-height: 3rem;
+  color: white;
+  .footer-list{
+    display: flex;
+  }
+  .footer-list{
+    display: flex;
+  }
+  // .footer-item{
+  //   padding: 1rem;
+  // }
+}
