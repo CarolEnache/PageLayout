@@ -1,20 +1,14 @@
 .backgroundCenter
-p paragraph
-h1 title
-.contentMenu
-
-//- #content1
-//-   .content1-wrapper
-//-     each content in data.pageLayout.content1
-//-       if content.type == "text"
-//-         p.content1-paragraph #{content.text}
-//-       if content.type == "title"
-//-         h1.content1-title #{content.text}
-//-       if content.type == "link"
-//-         ul.content1-list
-//-           each link in content.list
-//-             li.content1-item
-//-               .content1-link-wrapper
-//-                 a.content1-link(href="#") #{link.label}
-//-                   span.content1-span Enter
+each content in data.pageLayout.content1
+  if content.type == "text"
+    p.content1-paragraph #{content.text}
+  if content.type == "title"
+    h1.content1-title #{content.text}
+  if content.type == "link"
+    ul.contentMenu
+      each link in content.list
+        li.content1-item
+          .content1-link-wrapper
+            a.content1-link(href="#") #{link.label}
+              span.content1-span Enter
 

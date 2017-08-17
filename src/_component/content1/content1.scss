@@ -1,15 +1,23 @@
-// - p{
-// -   grid-row: 4/5;
-// -   grid-column: 2/4;
-// -   margin: 0 auto;
-// - }
 
-// - h1{
-// -   grid-row: 4/5;
-// -   grid-column: 2/4;
-// -   margin: 0 auto;
-// -   margin-top: 2rem; 
-// - }
+.content1-paragraph{
+  grid-row: 4/5;
+  grid-column: 2/4;
+  margin: 0 auto;
+  padding-top: 50px;
+  color: white;   
+ }
+
+.content1-title{
+  grid-row: 4/5;
+  grid-column: 2/4;
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  font-family: cursive;
+  font-size: 1.5rem;
+  color: white;
+} 
 
 .backgroundCenter{
   background-color: #555;
@@ -18,25 +26,50 @@
 }
 
 .contentMenu{
-  background-color: $c5;
+  background-color:#888;
   grid-row: 5/6;
   grid-column: 2/4;
-  margin-bottom: 2rem;
+  display: flex;
+  margin: 2rem;
+  .content1-item{
+    width: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+  }
+  .content1-item:hover{
+    background-color: #666;
+  }
+  .content1-link-wrapper{
+    width: 200px;
+    height: 200px;
+    background-color:#e0e0e0;
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex; 
+    align-items: center;
+  }
+  .content1-link{
+    text-decoration: none;
+    color: white;
+    font-family: -webkit-pictograph;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content1-span{
+    font-size: 1.2rem;
+  }
+
 }
 
-// #content1{
-//   background-color: #555;
-//   height: 740px;
-//   width: 100vw;
-//   grid-row: 4/5;
-//   grid-column: 1/7; 
-
-// }
 // .content1-wrapper{
 //   display: flex;
 //   flex-direction: column;
 //   align-items: center;
-//   width: 100vw;
 //   .content1-paragraph{
 //     margin: 50px;
 //     color: white;
@@ -51,37 +84,10 @@
 //     display: flex;
 //   }
 //   .content1-item{
-//     height: 500px;
 //     background-color: #888;
 //     border: 1px solid white;
-//     width: 310px;
 //     display: flex;
 //     justify-content: center;
 //     align-items: center;
-//   }
-//   .content1-item:hover{
-//     background-color: #666;
-//   }
-//   .content1-link-wrapper{
-//     width: 200px;
-//     height: 200px;
-//     background-color:#e0e0e0;
-//     border: 1px solid #e0e0e0;
-//     border-radius: 50%;
-//     justify-content: center;
-//     display: flex; 
-//     align-items: center;
-//   }
-//   .content1-link{
-//     text-decoration: none;
-//     color: white;
-//     font-family: -webkit-pictograph;
-//     font-size: 2rem;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//   }
-//   .content1-span{
-//     font-size: 1.5rem;
 //   }
 // }
