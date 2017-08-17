@@ -10,7 +10,7 @@ html, body{
 
 body{
   display: grid;
-  grid-template-columns: 1fr 315px 315px 315px 315px 1fr;
-  grid-template-rows: 170px 530px 170px 1fr 1fr 45px;
+  grid-template-columns: 1fr 945px 315px 1fr;
+  grid-template-rows: 170px 530px 170px auto 500px 50px 220px 50px 45px;
   font-family: "Helvetica";
 }

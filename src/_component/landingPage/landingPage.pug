@@ -1,42 +1,50 @@
-#landingPage
-  each side in data.pageLayout.header
-    .nav-bar
-      .leftSide
-        each cont in side.left
-          if cont.type == "image"
-            .imgWrapper
-              img.headerLogo(src=cont.url)
-          if cont.type == "link"
-            ul.leftSide-list
-              each y in cont.content
-                li.leftSide-item
-                  a.leftSide-link(href=y.url) 
-                    span.leftSide-desc #{y.label}
-      .rightSide
-        .listWrapper
-          each cont in side.right
-            if cont.type == "link" 
-              ul.rightSide-list
-                  each x in cont.content
-                    li.rightSide-item
-                      a.rightSide-link(href=x.url)
-                        span.some #{x.label}
-            if cont.type == "icon"
-              ul.rightSide-list
-                each x in cont.content
-                  li.rightSide-item  
-                    a.rightSide-link(href="#")
-                      span.some(class=`icon-${x.icon}`)
-        form.rightSide-form         
-          input.rightSide-input(type='text', name='fname')
+each side in data.pageLayout.header
+  .header
+    each cont in side.left
+      if cont.type == "image"
+        img.headerLogo(src=cont.url)
+      if cont.type == "link"
+        ul.leftSide-list
+          each y in cont.content
+            li.leftSide-item
+              a.leftSide-link(href=y.url) 
+                span.leftSide-desc #{y.label}
+  .social
+    each cont in side.right
+      if cont.type == "link" 
+        ul.rightSide-list
+            each x in cont.content
+              li.rightSide-item
+                a.rightSide-link(href=x.url)
+                  span.some #{x.label}
+      if cont.type == "icon"
+        ul.rightSide-list
+          each x in cont.content
+            li.rightSide-item  
+              a.rightSide-link(href="#")
+                span.some(class=`icon-${x.icon}`)
+    form.rightSide-form         
+      input.rightSide-input(type='text', name='fname')
 
-  .landingCont
 
-  ul.lpMenu-list              
-    each list in data.pageLayout.lpMenu
-      li.lpMenu-item
-        a.lpMenu-link(href=list.url) #{list.label}
-    .arrowDown
-      a.icon-arrow-down2(href="#")
-      //- span
+
+
+.banner
+.mainMenu
+.backgroundCenter
+p paragraph
+h1 title
+.contentMenu
+.backgroundBottom
+.bottomMenu
+.footer
+
+
+//- ul.lpMenu-list              
+//-   each list in data.pageLayout.lpMenu
+//-     li.lpMenu-item
+//-       a.lpMenu-link(href=list.url) #{list.label}
+//-   .arrowDown
+//-     a.icon-arrow-down2(href="#")
+//-     //- span
 
