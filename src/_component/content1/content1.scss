@@ -1,3 +1,29 @@
+// - p{
+// -   grid-row: 4/5;
+// -   grid-column: 2/4;
+// -   margin: 0 auto;
+// - }
+
+// - h1{
+// -   grid-row: 4/5;
+// -   grid-column: 2/4;
+// -   margin: 0 auto;
+// -   margin-top: 2rem; 
+// - }
+
+.backgroundCenter{
+  background-color: #555;
+  grid-row: 4/7;
+  grid-column: 1/5;
+}
+
+.contentMenu{
+  background-color: $c5;
+  grid-row: 5/6;
+  grid-column: 2/4;
+  margin-bottom: 2rem;
+}
+
 // #content1{
 //   background-color: #555;
 //   height: 740px;

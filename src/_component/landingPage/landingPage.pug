@@ -26,25 +26,13 @@ each side in data.pageLayout.header
     form.rightSide-form         
       input.rightSide-input(type='text', name='fname')
 
+  .banner
+  ul.mainMenu              
+    each list in data.pageLayout.lpMenu
+      li.lpMenu-item
+        a.lpMenu-link(href=list.url) #{list.label}
 
+    .arrowDown
+      a.icon-arrow-down2(href="#")
 
-
-.banner
-.mainMenu
-.backgroundCenter
-p paragraph
-h1 title
-.contentMenu
-.backgroundBottom
-.bottomMenu
-.footer
-
-
-//- ul.lpMenu-list              
-//-   each list in data.pageLayout.lpMenu
-//-     li.lpMenu-item
-//-       a.lpMenu-link(href=list.url) #{list.label}
-//-   .arrowDown
-//-     a.icon-arrow-down2(href="#")
-//-     //- span
 
