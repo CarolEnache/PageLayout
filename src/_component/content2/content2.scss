@@ -34,4 +34,21 @@
     padding-right: 2rem;
   }
 }
+.xyz {
+  width: 0; height: 0;  
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid grey;
+  display: flex;
+  justify-content: center;
+  grid-row: 7/8;
+  grid-column: 2/4;
+  margin-left: 50%;
+  margin-top: 16%;
 
+  .icon-ctrl{
+    margin-top: 1.5rem;
+    color: white;
+  }
+}
